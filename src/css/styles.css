@@ -1,7 +1,8 @@
 body {
   padding: 0;
   margin: 0;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #212121;
   background-color: rgb(237, 237, 244);
 }
@@ -10,17 +11,17 @@ body {
   margin: 20px;
 }
 
-.input{
-padding: 10px;
-margin: 20px;
+.input {
+  padding: 10px;
+  margin: 20px;
 }
 
 .search-button {
   cursor: pointer;
   background-color: rgb(193, 186, 186);
   margin: 0 auto;
- display: block;
- border-radius: 4px;
+  display: block;
+  border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: rgb(70, 63, 63);
   width: 200px;
@@ -33,25 +34,25 @@ margin: 20px;
   padding: 10px 41px;
 }
 
-.search-form{           
-text-align: center;
+.search-form {
+  text-align: center;
 }
 
-.gallery{
+.gallery {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   gap: 10px;
 }
 
-.photo-card{
-    border: 1px solid rgb(193, 186, 186);
-    border-bottom-left-radius: 20px ;
-    border-bottom-right-radius: 20px ;
+.photo-card {
+  border: 1px solid rgb(193, 186, 186);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
-.info-item{
-    text-align: center;
+.info-item {
+  text-align: center;
 }
 
 .load-more {
@@ -61,11 +62,11 @@ text-align: center;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-display: block;
+  display: block;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: rgb(70, 63, 63);
-  width: 200px;
+  width: 201px;
   height: 50px;
   font-weight: 700;
   font-size: 16px;
@@ -75,6 +76,6 @@ display: block;
   padding: 10px 41px;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
