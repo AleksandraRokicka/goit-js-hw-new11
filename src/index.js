@@ -23,6 +23,7 @@ const loadingButton = document.querySelector('.load-more');
 const input = document.querySelector("input[name='searchQuery']");
 const perPage = 40;
 let currentPage = 1;
+let totalPages = 0;
 
 const dataFromApi = {
   key: '33350388-38e3ff766672c2db25ae5770d', // twój unikalny klucz dostępu do API - dostepny po zarejestrowaniu sie
@@ -60,11 +61,7 @@ async function fetchImages() {
       );
          loadingButton.classList.add('hidden');
     }
-
-    
-    // if (images.length>500) {
-     
-    // }
+   
 
     gallery.insertAdjacentHTML(
       'beforeend',
@@ -107,8 +104,6 @@ form.addEventListener('submit', function (event) {
   gallery.innerHTML = '';
   fetchImages();
 });
-
-
 
 //  let totalPages = totalHits / perPage;
 //  if (currentPage > totalPages) {
